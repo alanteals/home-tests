@@ -1,4 +1,4 @@
-package rest;
+package com.mruiz84.home.rest;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.github.tomakehurst.wiremock.core.WireMockConfiguration;

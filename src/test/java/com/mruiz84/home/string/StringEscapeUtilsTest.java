@@ -1,4 +1,4 @@
-package util;
+package com.mruiz84.home.string;
 
 import org.apache.commons.lang3.StringEscapeUtils;
 import org.junit.Assert;

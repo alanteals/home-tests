@@ -1,4 +1,4 @@
-package rest;
+package com.mruiz84.home.rest;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
