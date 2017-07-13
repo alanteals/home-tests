@@ -9,6 +9,11 @@ repositories {
     mavenCentral()
 }
 
+ext {
+    hibernate_version = '5.2.2.Final'
+    hsqldb_version = '2.4.0'
+}
+
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     testCompile 'org.mockito:mockito-core:2.7.17'
@@ -19,4 +24,7 @@ dependencies {
     testCompile 'com.sun.jersey:jersey-client:1.19.1'
     testCompile 'org.springframework:spring-web:4.3.9.RELEASE'
 
+    testCompile "org.hibernate:hibernate-core:${hibernate_version}"
+    testCompile "org.hibernate:hibernate-c3p0:${hibernate_version}"
+    testCompile "org.hsqldb:hsqldb:${hsqldb_version}"
 }
