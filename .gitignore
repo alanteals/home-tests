@@ -8,5 +8,6 @@ gradle-app.setting
 !gradle-wrapper.jar
 
 \.idea/
+\out/
 
 *.class
